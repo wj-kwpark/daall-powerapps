@@ -7,10 +7,9 @@
       "displayName": "Azure Database for MySQL",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_azuremysql",
-        "apiVer": 1,
         "appVer": "3.23105.18",
-        "modifiedOn": "2023-11-15 08:24:23",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[nocode-test].[notice]\":[\"get\"]}}",
+        "modifiedOn": "2023-11-15 07:35:58",
+        "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1665/1.0.1665.3485/azuremysql/icon.png",
