@@ -1,0 +1,26 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_azuremysql",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-11-01T16:36:30.5690000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "CONTENT": "CONTENT",
+      "FILE_ID": "FILE_ID",
+      "MODY_DATE": "MODY_DATE",
+      "MODY_ID": "MODY_ID",
+      "NOTICE_TITLE": "NOTICE_TITLE",
+      "REGI_DATE": "REGI_DATE",
+      "REGI_ID": "REGI_ID",
+      "SEQ": "SEQ"
+    },
+    "DatasetName": "wjmonster-mysql.mysql.database.azure.com,nocode-test",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "nocode-test.notice",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
