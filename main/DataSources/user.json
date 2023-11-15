@@ -1,0 +1,98 @@
+[
+  {
+    "DisplayName": "user (뷰)",
+    "Name": "_cre6f_user_views",
+    "RelatedEntityName": "user",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "076a5775-0fcf-41e4-8591-e0ca364f11c4": "user 조회 보기",
+      "153d6f7d-585a-4e6f-b251-08ecf9221e00": "비활성 user",
+      "aa12dff5-1d43-4dd7-8a00-90a6de0ee10e": "활성 user",
+      "b9942187-5eb7-4c0b-a918-da55d4941646": "user 관련 보기",
+      "cb4a0aac-2b0f-42bb-bb25-3b1928463cbc": "user의 상세하게 찾기 보기"
+    }
+  },
+  {
+    "DisplayName": "상태 (user)",
+    "Name": "cre6f_user_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "user"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "user",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (user)",
+    "Name": "cre6f_user_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "user"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "user",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cre6f_users",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cre6f_user",
+    "Name": "user",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "cre6f_name": "user_name",
+      "cre6f_user_AsyncOperations": "시스템 작업 ",
+      "cre6f_user_BulkDeleteFailures": "대량 삭제 실패 ",
+      "cre6f_user_DuplicateBaseRecord": "중복 레코드  (cre6f_user_DuplicateBaseRecord)",
+      "cre6f_user_DuplicateMatchingRecord": "중복 레코드  (cre6f_user_DuplicateMatchingRecord)",
+      "cre6f_user_id": "user_id",
+      "cre6f_user_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "cre6f_user_PrincipalObjectAttributeAccesses": "필드 공유",
+      "cre6f_user_ProcessSession": "프로세스 세션",
+      "cre6f_user_SyncErrors": "동기화 오류",
+      "cre6f_userid": "user",
+      "createdby": "만든 사람",
+      "createdon": "regi_date",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "emailaddress": "전자 메일 주소",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "user",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

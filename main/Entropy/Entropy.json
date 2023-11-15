@@ -1,0 +1,115 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 11,
+    "Button2": 14,
+    "Container2": 5,
+    "Host": 3,
+    "HtmlText4": 19,
+    "Image5": 6,
+    "Label1": 7,
+    "Label1_1": 8,
+    "Label2": 13,
+    "Label2_1": 15,
+    "Rectangle2": 12,
+    "Screen1": 4,
+    "TextInput1": 9,
+    "TextInput1_1": 10
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "11/15/2023 06:16:42",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "bg_login": "86bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png",
+    "img_logo": "5c94b50a-85d2-48a4-a690-41fe166a6270.png"
+  },
+  "LocalResourceRootPaths": {
+    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/67a700b5-d10a-4be6-90c3-2fc6edeb5982-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T05%3A08%3A48Z&ske=2023-11-16T05%3A23%3A48Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T05%3A23%3A48Z&sr=b&sp=r&sig=kVHF1TrQ6SpwLo2Ft876ThMA7Ujj2dqAT%2BL93AXVLKo%3D",
+    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/67a700b5-d10a-4be6-90c3-2fc6edeb5982-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T05%3A08%3A48Z&ske=2023-11-16T05%3A23%3A48Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T05%3A23%3A48Z&sr=b&sp=r&sig=yvTiLqyw%2B5C6N2CDpYxF2sOGRpOlT9dtV3p49%2F8cdPk%3D"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "nocode-test.user": 3,
+    "user": 4,
+    "user\\cre6f_user_statecode": 0,
+    "user\\cre6f_user_statuscode": 1,
+    "user\\default.cds_cre6f_user_views": 2
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 5,
+    "groupContainer": 1,
+    "htmlViewer": 0,
+    "image": 2,
+    "label": 3,
+    "rectangle": 6,
+    "text": 4
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Button2": {},
+    "Container2": {},
+    "Host": {},
+    "HtmlText4": {},
+    "Image5": {},
+    "Label1": {},
+    "Label1_1": {},
+    "Label2": {},
+    "Label2_1": {},
+    "Rectangle2": {},
+    "Screen1": {},
+    "TextInput1": {},
+    "TextInput1_1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 7,
+    "Button2": 10,
+    "Container2": 1,
+    "Host": 0,
+    "HtmlText4": 0,
+    "Image5": 2,
+    "Label1": 3,
+    "Label1_1": 4,
+    "Label2": 9,
+    "Label2_1": 11,
+    "Rectangle2": 8,
+    "Screen1": 0,
+    "TextInput1": 5,
+    "TextInput1_1": 6
+  },
+  "ResourcesJsonIndices": {
+    "Image-bg_login": 1,
+    "Image-img_logo": 2,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0869896,
+    "ControlCount": {
+      "button": 2,
+      "groupContainer": 1,
+      "image": 1,
+      "label": 4,
+      "rectangle": 1,
+      "screen": 1,
+      "text": 2
+    },
+    "DeserializationLoadTime": 1.5217583
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
