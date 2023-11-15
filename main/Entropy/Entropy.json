@@ -14,13 +14,14 @@
     "Label2": 14,
     "Label2_1": 16,
     "Rectangle2": 13,
+    "Screen1": 17,
     "TextInput1": 10,
     "TextInput1_1": 11,
     "로그인화면": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2023 07:33:23",
+  "HeaderLastSavedDateTimeUTC": "11/15/2023 07:35:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
@@ -31,8 +32,8 @@
     "img_logo": "5c94b50a-85d2-48a4-a690-41fe166a6270.png"
   },
   "LocalResourceRootPaths": {
-    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/8af91e7a-45fa-4f2c-aada-df882cdde3f0-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A33%3A05Z&ske=2023-11-16T07%3A48%3A05Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A48%3A05Z&sr=b&sp=r&sig=XXpzHgRli3dXi77ZlOXwE9pipXFlkUQ6R%2BbDewVoQX4%3D",
-    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/8af91e7a-45fa-4f2c-aada-df882cdde3f0-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A33%3A05Z&ske=2023-11-16T07%3A48%3A05Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A48%3A05Z&sr=b&sp=r&sig=aeiCX%2BOmN9jLcjEnvMeE1siBH2jBRNeuKVMxvrlq4mk%3D"
+    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/4c67d18c-9b76-410e-974b-7df86513ed8c-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A35%3A22Z&ske=2023-11-16T07%3A50%3A22Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A50%3A22Z&sr=b&sp=r&sig=6YJJwLAA9z4VxqRlB8jo80NHseGWAzccXlfoRTZCfJg%3D",
+    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/4c67d18c-9b76-410e-974b-7df86513ed8c-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A35%3A22Z&ske=2023-11-16T07%3A50%3A22Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A50%3A22Z&sr=b&sp=r&sig=Dw5I%2FjKWGZuffjmBiRvYaaTms7kzVVjXQnORRE7BIKg%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -68,6 +69,7 @@
     "Label2": {},
     "Label2_1": {},
     "Rectangle2": {},
+    "Screen1": {},
     "TextInput1": {},
     "TextInput1_1": {},
     "로그인화면": {}
@@ -87,6 +89,7 @@
     "Label2": 9,
     "Label2_1": 11,
     "Rectangle2": 8,
+    "Screen1": 0,
     "TextInput1": 5,
     "TextInput1_1": 6,
     "로그인화면": 0
@@ -99,7 +102,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0960182,
+    "AnalysisLoadTime": 0.0917772,
     "ControlCount": {
       "button": 2,
       "groupContainer": 1,
@@ -110,7 +113,7 @@
       "screen": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 1.369392
+    "DeserializationLoadTime": 1.0929418
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
