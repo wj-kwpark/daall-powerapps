@@ -1,116 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button-Demo": 15,
-    "Button-login": 12,
-    "Container2": 6,
-    "Host": 3,
-    "HtmlText4": 5,
-    "Image5": 7,
-    "Label1": 8,
-    "Label1_1": 9,
-    "Label2": 14,
-    "Label2_1": 16,
-    "Rectangle2": 13,
-    "TextInput1": 10,
-    "TextInput1_1": 11,
-    "로그인화면": 4
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2023 07:36:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "bg_login": "86bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png",
-    "img_logo": "5c94b50a-85d2-48a4-a690-41fe166a6270.png"
-  },
-  "LocalResourceRootPaths": {
-    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/8af91e7a-45fa-4f2c-aada-df882cdde3f0-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A33%3A05Z&ske=2023-11-16T07%3A48%3A05Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A48%3A05Z&sr=b&sp=r&sig=XXpzHgRli3dXi77ZlOXwE9pipXFlkUQ6R%2BbDewVoQX4%3D",
-    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/8af91e7a-45fa-4f2c-aada-df882cdde3f0-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T07%3A33%3A05Z&ske=2023-11-16T07%3A48%3A05Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T07%3A48%3A05Z&sr=b&sp=r&sig=aeiCX%2BOmN9jLcjEnvMeE1siBH2jBRNeuKVMxvrlq4mk%3D"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "nocode-test.user": 3,
-    "user": 4,
-    "user\\cre6f_user_statecode": 0,
-    "user\\cre6f_user_statuscode": 1,
-    "user\\default.cds_cre6f_user_views": 2
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 5,
-    "groupContainer": 1,
-    "htmlViewer": 0,
-    "image": 2,
-    "label": 3,
-    "rectangle": 6,
-    "text": 4
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button-Demo": {},
-    "Button-login": {},
-    "Container2": {},
-    "Host": {},
-    "HtmlText4": {},
-    "Image5": {},
-    "Label1": {},
-    "Label1_1": {},
-    "Label2": {},
-    "Label2_1": {},
-    "Rectangle2": {},
-    "TextInput1": {},
-    "TextInput1_1": {},
-    "로그인화면": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button-Demo": 10,
-    "Button-login": 7,
-    "Container2": 1,
-    "Host": 0,
-    "HtmlText4": 0,
-    "Image5": 2,
-    "Label1": 3,
-    "Label1_1": 4,
-    "Label2": 9,
-    "Label2_1": 11,
-    "Rectangle2": 8,
-    "TextInput1": 5,
-    "TextInput1_1": 6,
-    "로그인화면": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-bg_login": 1,
-    "Image-img_logo": 2,
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0960182,
-    "ControlCount": {
-      "button": 2,
-      "groupContainer": 1,
-      "htmlViewer": 1,
-      "image": 1,
-      "label": 4,
-      "rectangle": 1,
-      "screen": 1,
-      "text": 2
-    },
-    "DeserializationLoadTime": 1.369392
-  },
-  "WasLocalDatabaseReferencesEmpty": false
+  "TemplateVersions": {}
 }

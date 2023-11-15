@@ -129,6 +129,7 @@
     "UserLocale": "ko-KR"
   },
   "ScreenOrder": [
-    "로그인화면"
+    "로그인화면",
+    "Screen1"
   ]
 }
