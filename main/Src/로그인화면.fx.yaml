@@ -1,4 +1,4 @@
-Screen1 As screen:
+로그인화면 As screen:
     BackgroundImage: =bg_login
 
     HtmlText4 As htmlViewer:
@@ -30,7 +30,7 @@ Screen1 As screen:
 
         TextInput1 As text:
             BorderThickness: =0
-            Default: =If(
+            Default: =
             Fill: =RGBA(237, 237, 237, 1)
             Font: =Font.'Lato Light'
             HintText: ="아이디"
@@ -83,9 +83,9 @@ Screen1 As screen:
             Y: =290
             ZIndex: =5
 
-        Button1 As button:
+        "'Button-login' As button":
             Fill: =RGBA(39, 113, 194, 1)
-            OnSelect: =If(Search(user
+            OnSelect: =
             RadiusBottomLeft: =15
             RadiusBottomRight: =15
             RadiusTopLeft: =15
@@ -125,7 +125,7 @@ Screen1 As screen:
             Y: =538
             ZIndex: =9
 
-        Button2 As button:
+        "'Button-Demo' As button":
             Fill: =RGBA(0, 0, 0, 1)
             RadiusBottomLeft: =20
             RadiusBottomRight: =20

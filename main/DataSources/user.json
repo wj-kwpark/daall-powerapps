@@ -60,6 +60,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cre6f_user",
+    "MaxGetRowsCount": 500,
     "Name": "user",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "담당자",

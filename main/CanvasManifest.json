@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -114,7 +114,7 @@
     "ManualOfflineProfileId": "",
     "Name": "daall-mobile",
     "OriginatingVersion": "1.335",
-    "ParserErrorCount": 4,
+    "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -129,6 +129,6 @@
     "UserLocale": "ko-KR"
   },
   "ScreenOrder": [
-    "Screen1"
+    "로그인화면"
   ]
 }

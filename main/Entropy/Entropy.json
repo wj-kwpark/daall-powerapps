@@ -3,24 +3,24 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 11,
-    "Button2": 14,
-    "Container2": 5,
+    "Button-Demo": 15,
+    "Button-login": 12,
+    "Container2": 6,
     "Host": 3,
-    "HtmlText4": 19,
-    "Image5": 6,
-    "Label1": 7,
-    "Label1_1": 8,
-    "Label2": 13,
-    "Label2_1": 15,
-    "Rectangle2": 12,
-    "Screen1": 4,
-    "TextInput1": 9,
-    "TextInput1_1": 10
+    "HtmlText4": 5,
+    "Image5": 7,
+    "Label1": 8,
+    "Label1_1": 9,
+    "Label2": 14,
+    "Label2_1": 16,
+    "Rectangle2": 13,
+    "TextInput1": 10,
+    "TextInput1_1": 11,
+    "로그인화면": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2023 06:16:42",
+  "HeaderLastSavedDateTimeUTC": "11/15/2023 06:50:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
@@ -31,8 +31,8 @@
     "img_logo": "5c94b50a-85d2-48a4-a690-41fe166a6270.png"
   },
   "LocalResourceRootPaths": {
-    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/67a700b5-d10a-4be6-90c3-2fc6edeb5982-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T05%3A08%3A48Z&ske=2023-11-16T05%3A23%3A48Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T05%3A23%3A48Z&sr=b&sp=r&sig=kVHF1TrQ6SpwLo2Ft876ThMA7Ujj2dqAT%2BL93AXVLKo%3D",
-    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/67a700b5-d10a-4be6-90c3-2fc6edeb5982-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T05%3A08%3A48Z&ske=2023-11-16T05%3A23%3A48Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T05%3A23%3A48Z&sr=b&sp=r&sig=yvTiLqyw%2B5C6N2CDpYxF2sOGRpOlT9dtV3p49%2F8cdPk%3D"
+    "bg_login": "https://docserverpwaprodseas.blob.core.windows.net/d0df1ff1-5d56-4e49-abcd-f1b08773f563-1/resource/Assets0Images086bd75ef-b74e-4b87-a9ea-a39ae27be9ab.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T06%3A30%3A34Z&ske=2023-11-16T06%3A45%3A34Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T06%3A45%3A34Z&sr=b&sp=r&sig=Mhi4a18J3o9GDFvom908Qe1bL7qdxu05wNrIVQDpJe8%3D",
+    "img_logo": "https://docserverpwaprodseas.blob.core.windows.net/d0df1ff1-5d56-4e49-abcd-f1b08773f563-1/resource/Assets0Images05c94b50a-85d2-48a4-a690-41fe166a6270.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-15T06%3A30%3A34Z&ske=2023-11-16T06%3A45%3A34Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-16T06%3A45%3A34Z&sr=b&sp=r&sig=oUKVsR6XzAztzYSXiDWAKZ04FV%2Fsa%2Fgs63m3%2FizQpEQ%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -57,8 +57,8 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Button1": {},
-    "Button2": {},
+    "Button-Demo": {},
+    "Button-login": {},
     "Container2": {},
     "Host": {},
     "HtmlText4": {},
@@ -68,16 +68,16 @@
     "Label2": {},
     "Label2_1": {},
     "Rectangle2": {},
-    "Screen1": {},
     "TextInput1": {},
-    "TextInput1_1": {}
+    "TextInput1_1": {},
+    "로그인화면": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 7,
-    "Button2": 10,
+    "Button-Demo": 10,
+    "Button-login": 7,
     "Container2": 1,
     "Host": 0,
     "HtmlText4": 0,
@@ -87,9 +87,9 @@
     "Label2": 9,
     "Label2_1": 11,
     "Rectangle2": 8,
-    "Screen1": 0,
     "TextInput1": 5,
-    "TextInput1_1": 6
+    "TextInput1_1": 6,
+    "로그인화면": 0
   },
   "ResourcesJsonIndices": {
     "Image-bg_login": 1,
@@ -99,17 +99,18 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0869896,
+    "AnalysisLoadTime": 0.1382481,
     "ControlCount": {
       "button": 2,
       "groupContainer": 1,
+      "htmlViewer": 1,
       "image": 1,
       "label": 4,
       "rectangle": 1,
       "screen": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 1.5217583
+    "DeserializationLoadTime": 1.8580929
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
