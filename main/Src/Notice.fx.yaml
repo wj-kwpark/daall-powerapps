@@ -32,7 +32,6 @@ Notice As screen:
             ShowScrollbar: =false
             TemplatePadding: =0
             TemplateSize: =50
-            Transition: =Transition.Push
             Width: =1207
             X: =136
             Y: =338
