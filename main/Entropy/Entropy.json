@@ -5,41 +5,42 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "BoardBody": 14,
-    "BoardDate": 17,
-    "BoardHeader": 6,
-    "BoardName": 18,
-    "BoardNotice": 20,
-    "BoardSeparator": 19,
-    "BoardTitle": 16,
-    "Button-Demo": 32,
-    "Button-login": 29,
+    "BoardBody": 27,
+    "BoardDate": 30,
+    "BoardHeader": 19,
+    "BoardName": 31,
+    "BoardNotice": 33,
+    "BoardSeparator": 32,
+    "BoardTitle": 29,
+    "Button-Demo": 16,
+    "Button-login": 13,
     "Component1": 4,
-    "Container2": 23,
-    "DateOrder": 11,
-    "galleryTemplate1": 15,
-    "HeaderDate": 8,
-    "HeaderName": 9,
-    "HeaderSeparator": 13,
-    "HeaderTitle": 7,
+    "Container2": 7,
+    "DateOrder": 24,
+    "galleryTemplate1": 28,
+    "HeaderDate": 21,
+    "HeaderName": 22,
+    "HeaderSeparator": 26,
+    "HeaderTitle": 20,
     "Host": 3,
-    "HtmlText4": 22,
-    "Image5": 24,
-    "Label1": 25,
-    "Label1_1": 26,
-    "Label2": 31,
-    "Label2_1": 33,
-    "NameOrder": 12,
-    "Notice": 5,
-    "Rectangle2": 30,
-    "TextInput1": 27,
-    "TextInput1_1": 28,
-    "TitleOrder": 10,
-    "로그인화면": 21
+    "HtmlText4": 6,
+    "Image5": 8,
+    "Label1": 9,
+    "Label1_1": 10,
+    "Label2": 15,
+    "Label2_1": 17,
+    "Label3": 34,
+    "NameOrder": 25,
+    "Notice": 18,
+    "Rectangle2": 14,
+    "TextInput1": 11,
+    "TextInput1_1": 12,
+    "TitleOrder": 23,
+    "로그인화면": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/16/2023 01:29:18",
+  "HeaderLastSavedDateTimeUTC": "11/16/2023 01:31:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
@@ -50,8 +51,8 @@
     "img_logo": "0002.png"
   },
   "LocalResourceRootPaths": {
-    "bg_login": "https://docserverpwaprodeas.blob.core.windows.net/98c7e83a-4cd8-474c-b5fc-883bf828b877-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T01%3A27%3A42Z&ske=2023-11-17T01%3A42%3A42Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T01%3A42%3A42Z&sr=b&sp=r&sig=CSPsI89b%2FnAiotj3Y45U2iUrG%2FdgBA4OXyP9xS5kpAE%3D",
-    "img_logo": "https://docserverpwaprodeas.blob.core.windows.net/98c7e83a-4cd8-474c-b5fc-883bf828b877-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T01%3A27%3A42Z&ske=2023-11-17T01%3A42%3A42Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T01%3A42%3A42Z&sr=b&sp=r&sig=FXvLZqb4DmVW2dd6vZhw%2B2rPJT0vZ4Wo2NR7uYnGSSY%3D"
+    "bg_login": "https://docserverpwaprodseas.blob.core.windows.net/9a713f62-1559-4cb8-a2b6-5184399defaf-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T01%3A31%3A07Z&ske=2023-11-17T01%3A46%3A07Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T01%3A46%3A07Z&sr=b&sp=r&sig=%2BWAyTxFL3X11BqwYpVpIxu73TyLAVzoG9XoS1%2BMcdjw%3D",
+    "img_logo": "https://docserverpwaprodseas.blob.core.windows.net/9a713f62-1559-4cb8-a2b6-5184399defaf-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-16T01%3A31%3A07Z&ske=2023-11-17T01%3A46%3A07Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-17T01%3A46%3A07Z&sr=b&sp=r&sig=rUTPaz8WcTReDqgYPCapw0nzTemMz%2Bd8aLwbnW9UYGs%3D"
   },
   "OrderComponentMetadata": {
     "2570a21a948c4045b9bca9f6ad47cd92": 0
@@ -77,15 +78,15 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 8,
-    "gallery": 4,
-    "groupContainer": 0,
-    "htmlViewer": 5,
-    "icon": 2,
-    "image": 6,
-    "label": 1,
-    "rectangle": 3,
-    "text": 7
+    "button": 5,
+    "gallery": 8,
+    "groupContainer": 1,
+    "htmlViewer": 0,
+    "icon": 7,
+    "image": 2,
+    "label": 3,
+    "rectangle": 6,
+    "text": 4
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -113,6 +114,7 @@
     "Label1_1": {},
     "Label2": {},
     "Label2_1": {},
+    "Label3": {},
     "NameOrder": {},
     "Notice": {},
     "Rectangle2": {},
@@ -149,6 +151,7 @@
     "Label1_1": 25,
     "Label2": 30,
     "Label2_1": 32,
+    "Label3": 0,
     "NameOrder": 13,
     "Notice": 4,
     "Rectangle2": 29,
@@ -165,7 +168,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0749702,
+    "AnalysisLoadTime": 0.2134181,
     "ControlCount": {
       "2570a21a948c4045b9bca9f6ad47cd92": 1,
       "button": 2,
@@ -181,7 +184,7 @@
       "screen": 2,
       "text": 2
     },
-    "DeserializationLoadTime": 0.6143967
+    "DeserializationLoadTime": 1.335805
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
