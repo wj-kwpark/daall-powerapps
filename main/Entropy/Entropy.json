@@ -70,6 +70,8 @@
     "Label3": 94,
     "Label4": 95,
     "Label4_1": 21,
+    "Legend1": 98,
+    "LineChart1": 97,
     "logo": 25,
     "logo_1": 33,
     "main": 32,
@@ -90,14 +92,16 @@
     "resource-count": 76,
     "TextInput1": 63,
     "TextInput1_1": 64,
+    "Title1": 96,
     "TitleOrder": 45,
     "TitleOrder_1": 9,
     "user-count-chart": 78,
-    "로그인화면": 57
+    "로그인화면": 57,
+    "사용자조회수": 99
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/16/2023 05:42:47",
+  "HeaderLastSavedDateTimeUTC": "11/16/2023 05:44:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
@@ -154,8 +158,10 @@
     "f5b99109da234076a63a085036c17190": 0
   },
   "OrderDataSource": {
-    "1.K3Mf9I2ZSkCceYWHGMs9oQ==.TestRoster": 7,
+    "1.K3Mf9I2ZSkCceYWHGMs9oQ==.TestRoster": 9,
     "CustomGallerySample": 3,
+    "LegendSample": 8,
+    "LineChartSample": 7,
     "nocode-test.notice": 4,
     "nocode-test.user": 5,
     "user": 6,
@@ -171,6 +177,11 @@
     "BoardNotice_1": {
       "BoardBody_1": 0,
       "BoardHeader_1": 1
+    },
+    "사용자조회수": {
+      "Legend1": 2,
+      "LineChart1": 1,
+      "Title1": 0
     }
   },
   "OrderPcfTemplate": {
@@ -178,16 +189,18 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 9,
-    "gallery": 6,
+    "button": 11,
+    "gallery": 8,
     "groupContainer": 0,
-    "htmlViewer": 5,
-    "icon": 3,
+    "htmlViewer": 7,
+    "icon": 5,
     "image": 1,
     "label": 2,
-    "pcfDataField": 7,
-    "rectangle": 4,
-    "text": 8
+    "legend": 4,
+    "lineChart": 3,
+    "pcfDataField": 9,
+    "rectangle": 6,
+    "text": 10
   },
   "OverridablePropertiesEntry": {
     "1depthMenu": {},
@@ -252,6 +265,8 @@
     "Label3": {},
     "Label4": {},
     "Label4_1": {},
+    "Legend1": {},
+    "LineChart1": {},
     "logo": {},
     "logo_1": {},
     "main": {},
@@ -272,10 +287,12 @@
     "resource-count": {},
     "TextInput1": {},
     "TextInput1_1": {},
+    "Title1": {},
     "TitleOrder": {},
     "TitleOrder_1": {},
     "user-count-chart": {},
-    "로그인화면": {}
+    "로그인화면": {},
+    "사용자조회수": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {
@@ -357,6 +374,8 @@
     "Label3": 0,
     "Label4": 0,
     "Label4_1": 18,
+    "Legend1": 0,
+    "LineChart1": 0,
     "logo": 22,
     "logo_1": 32,
     "main": 31,
@@ -377,10 +396,12 @@
     "resource-count": 0,
     "TextInput1": 62,
     "TextInput1_1": 63,
+    "Title1": 0,
     "TitleOrder": 47,
     "TitleOrder_1": 8,
     "user-count-chart": 0,
-    "로그인화면": 56
+    "로그인화면": 56,
+    "사용자조회수": 0
   },
   "ResourcesJsonIndices": {
     "Image-bg_login": 1,

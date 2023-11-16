@@ -75,6 +75,37 @@ main As screen:
         Y: =86
         ZIndex: =6
 
+        사용자조회수 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+            Title1 As label:
+                Align: =Align.Center
+                Height: =25
+                Text: ="차트 제목"
+                Width: =400
+                X: =4
+                Y: =40
+                ZIndex: =2
+
+            LineChart1 As lineChart:
+                Height: =302
+                Items: =LineChartSample
+                X: =4
+                ZIndex: =3
+
+            Legend1 As legend:
+                Height: =80
+                ItemColorSet: =LineChart1.ItemColorSet
+                Items: =LineChart1.SeriesLabels
+                Width: =320
+                X: =80
+                Y: =222
+                ZIndex: =4
+
     "'report-count-chart' As groupContainer.manualLayoutContainer":
         Height: =302
         Width: =401
