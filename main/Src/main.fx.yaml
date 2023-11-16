@@ -47,6 +47,9 @@ main As screen:
                 ZIndex: =2
 
             Label4 As label:
+                Color: =RGBA(15, 108, 189, 1)
+                FontWeight: =FontWeight.Bold
+                Size: =18
                 Text: ="0건"
                 Width: =80
                 X: =17
