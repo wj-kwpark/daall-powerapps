@@ -11,3 +11,7 @@ main As screen:
         Y: =160
         ZIndex: =3
 
+    "'gnb-boundary_1' As 'gnb-boundary'":
+        X: =220
+        ZIndex: =4
+
