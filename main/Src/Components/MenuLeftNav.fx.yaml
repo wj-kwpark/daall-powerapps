@@ -7,7 +7,21 @@ MenuLeftNav As CanvasComponent:
                 MenuLabel: "자료실",
                 MenuIcon: icon_gnb_1,
                 MenuScreenNavigate: App.ActiveScreen,
-                MenuID: 1
+                MenuID: 1,
+                SubMenu: Table(
+                    {
+                        MenuLabel: "공지사항",
+                        MenuIcon: Icon.ArrowDown,
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 1
+                    },
+                    {
+                        MenuLabel: "Demo Report",
+                        MenuIcon: Icon.Currency,
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 2
+                    }
+                )
             },
             {
                 MenuLabel: "모니터링",
@@ -39,6 +53,27 @@ MenuLeftNav As CanvasComponent:
     Y: =0
     ZIndex: =1
 
+    HtmlText2 As htmlViewer:
+        Height: =608
+        HtmlText: |-
+            ="<div style='   
+            
+              padding: 0px 0 0;
+              box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+              border-style: solid;
+              border-width: 1px;
+              border-image-source: linear-gradient(164deg, #fff -2%, rgba(255, 255, 255, 0) 101%);
+              border-image-slice: 1;
+              background-color: #fff;
+             '> 
+            </div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =220
+        ZIndex: =1
+
     "'1depthMenu' As gallery.variableTemplateHeightGallery":
         DelayItemLoading: =true
         Items: =MenuLeftNav.MenuItems
@@ -47,7 +82,7 @@ MenuLeftNav As CanvasComponent:
         TemplateSize: =280
         Width: =180
         X: =40
-        ZIndex: =1
+        ZIndex: =2
 
         imageMenu As image:
             Height: =25
@@ -69,24 +104,33 @@ MenuLeftNav As CanvasComponent:
             Y: =5
             ZIndex: =2
 
-    HtmlText2 As htmlViewer:
-        Height: =608
-        HtmlText: |-
-            ="<div style='   
-            
-              padding: 0px 0 0;
-              box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
-              border-style: solid;
-              border-width: 1px;
-              border-image-source: linear-gradient(164deg, #fff -2%, rgba(255, 255, 255, 0) 101%);
-              border-image-slice: 1;
-              background-color: #fff;
-             '> 
-            </div>"
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Width: =220
-        ZIndex: =2
+        "'2depthMenu' As gallery.variableTemplateHeightGallery":
+            DelayItemLoading: =true
+            Height: =235
+            Items: =ThisItem.SubMenu
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =127
+            Width: =170
+            Y: =45
+            ZIndex: =3
+
+            Image4 As image:
+                Height: =5
+                Image: =icon_list_btn_card
+                OnSelect: =Select(Parent)
+                Width: =5
+                X: =15
+                Y: =15
+                ZIndex: =1
+
+            Label6 As label:
+                Height: =26
+                OnSelect: =Select(Parent)
+                Size: =10
+                Text: =ThisItem.MenuLabel
+                Width: =122
+                X: =20
+                Y: =4
+                ZIndex: =2
 
