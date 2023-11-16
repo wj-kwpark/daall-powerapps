@@ -62,7 +62,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/16/2023 02:04:14",
+  "HeaderLastSavedDateTimeUTC": "11/16/2023 02:05:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ca1db8dd-4853-4b86-b3f0-dedebf21c0e9": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/ad25ff046610423b8a77f51ba9bed666\""
