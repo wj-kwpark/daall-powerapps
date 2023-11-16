@@ -41,7 +41,7 @@ MenuLeftNav As CanvasComponent:
 
     "'1depthMenu' As gallery.variableTemplateHeightGallery":
         DelayItemLoading: =true
-        Items: =CustomGallerySample
+        Items: =MenuLeftNav.MenuItems
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =280
@@ -58,7 +58,9 @@ MenuLeftNav As CanvasComponent:
             Y: =5
             ZIndex: =1
 
-        Label6 As label:
+        menuLabel As label:
+            Height: =23
+            LineHeight: =10
             OnSelect: =Select(Parent)
             Text: =ThisItem.MenuLabel
             Width: =123

@@ -1,5 +1,40 @@
 Notice As screen:
 
+    "PowerAppsOneGrid1 As '테이블(Dataverse만)'.pcfdataset":
+        DisplayMode: =DisplayMode.Edit
+        EnableRangeSelection: ='PowerAppsOneGrid.EnableRangeSelection'.Disable
+        Height: =478
+        Items: ='nocode-test.notice'
+        ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.Reflow
+        Width: =891
+        X: =56
+        Y: =44
+        ZIndex: =3
+
+        REGI_DATE1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="REGI_DATE"
+            FieldName: ="REGI_DATE"
+            FieldType: ="D"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =9
+
+        REGI_ID1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="REGI_ID"
+            FieldName: ="REGI_ID"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            ZIndex: =10
+
+        NOTICE_TITLE1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="NOTICE_TITLE"
+            FieldName: ="NOTICE_TITLE"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            ZIndex: =11
+
     BoardNotice As group:
         Height: =5
         Width: =5
@@ -177,41 +212,6 @@ Notice As screen:
                 X: =1110
                 Y: =16
                 ZIndex: =8
-
-    "PowerAppsOneGrid1 As '테이블(Dataverse만)'.pcfdataset":
-        DisplayMode: =DisplayMode.Edit
-        EnableRangeSelection: ='PowerAppsOneGrid.EnableRangeSelection'.Disable
-        Height: =478
-        Items: ='nocode-test.notice'
-        ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.Reflow
-        Width: =891
-        X: =56
-        Y: =44
-        ZIndex: =3
-
-        REGI_DATE1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="REGI_DATE"
-            FieldName: ="REGI_DATE"
-            FieldType: ="D"
-            FieldVariantName: ="textualColumn"
-            Order: =1
-            ZIndex: =9
-
-        REGI_ID1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="REGI_ID"
-            FieldName: ="REGI_ID"
-            FieldType: ="s"
-            FieldVariantName: ="textualColumn"
-            Order: =2
-            ZIndex: =10
-
-        NOTICE_TITLE1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="NOTICE_TITLE"
-            FieldName: ="NOTICE_TITLE"
-            FieldType: ="s"
-            FieldVariantName: ="textualColumn"
-            Order: =3
-            ZIndex: =11
 
     Component2_1 As Component2:
         Height: =411

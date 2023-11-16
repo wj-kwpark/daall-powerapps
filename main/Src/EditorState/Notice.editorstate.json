@@ -84,7 +84,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BoardBody",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -577,7 +577,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BoardHeader",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -986,7 +986,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BoardNotice",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1461,7 +1461,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component2_1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
