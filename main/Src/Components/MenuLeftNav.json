@@ -2078,17 +2078,7 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [
-    {
-      "Category": 0,
-      "DisplayName": "MenuItems",
-      "Hidden": false,
-      "Name": "MenuItems",
-      "PropertyDataTypeKey": "Table",
-      "Tooltip": "사용자 지정 속성",
-      "Type":""
-    }
-  ],
+  "CustomProperties": [],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
