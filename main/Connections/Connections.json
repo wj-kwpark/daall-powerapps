@@ -9,7 +9,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_azuremysql",
         "apiVer": 1,
         "appVer": "3.23105.18",
-        "modifiedOn": "2023-11-15 08:43:04",
+        "modifiedOn": "2023-11-16 02:34:41",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[nocode-test].[notice]\":[\"get\"]}}",
         "version": 1
       },

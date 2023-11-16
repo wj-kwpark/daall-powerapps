@@ -1,0 +1,13 @@
+main As screen:
+
+    logo_1 As logo:
+
+    Header_1 As Header:
+        Height: =61
+        X: =220
+        ZIndex: =2
+
+    MenuLeftNav_1 As MenuLeftNav:
+        Y: =160
+        ZIndex: =3
+

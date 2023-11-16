@@ -1,0 +1,68 @@
+MenuLeftNav As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =App.Height - 160
+    MenuItems: |-
+        =Table(
+            {
+                MenuLabel: "자료실",
+                MenuIcon: icon_gnb_1,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 1
+            },
+            {
+                MenuLabel: "모니터링",
+                MenuIcon: icon_gnb_2,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 2
+            },
+            {
+                MenuLabel: "보고서",
+                MenuIcon: icon_gnb_3,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 3
+            },
+            {
+                MenuLabel: "데이터",
+                MenuIcon: icon_gnb_4,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 4
+            },
+            {
+                MenuLabel: "관리",
+                MenuIcon: icon_gnb_5,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 5
+            }
+        )
+    Width: =220
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "'1depthMenu' As gallery.variableTemplateHeightGallery":
+        DelayItemLoading: =true
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =280
+        Width: =180
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        imageMenu As image:
+            Height: =50
+            Image: =ThisItem.MenuIcon
+            OnSelect: =Select(Parent)
+            Width: =47
+            Y: =5
+            ZIndex: =1
+
+        Label6 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.MenuLabel
+            Width: =123
+            X: =47
+            Y: =10
+            ZIndex: =2
+
