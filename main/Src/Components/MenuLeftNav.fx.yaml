@@ -1,1 +1,165 @@
+MenuLeftNav As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =App.Height - 160
+    MenuItems: |-
+        =Table(
+            {
+                MenuLabel: "자료실",
+                MenuIcon: icon_gnb_1,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 1,
+                SubMenu: Table(
+                    {
+                        MenuLabel: "공지사항",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 1
+                    },
+                    {
+                        MenuLabel: "Demo Report",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 2
+                    }
+                )
+            },
+            {
+                MenuLabel: "모니터링",
+                MenuIcon: icon_gnb_2,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 2,
+                SubMenu: Table(
+                    {
+                        MenuLabel: "Azuer",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 1
+                    },
+                    {
+                        MenuLabel: "Microsoft365",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 2
+                    },
+                    {
+                        MenuLabel: "PowerPlatform",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 3
+                    }
+                )
+            },
+            {
+                MenuLabel: "보고서",
+                MenuIcon: icon_gnb_3,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 3
+            },
+            {
+                MenuLabel: "데이터",
+                MenuIcon: icon_gnb_4,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 4
+            },
+            {
+                MenuLabel: "관리",
+                MenuIcon: icon_gnb_5,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuID: 5,
+                SubMenu: Table(
+                    {
+                        MenuLabel: "Dashboard",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 1
+                    },
+                    {
+                        MenuLabel: "내정보",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 2
+                    },
+                    {
+                        MenuLabel: "권한관리",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 3
+                    },
+                    {
+                        MenuLabel: "사용자관리",
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuID: 4
+                    }
+                )
+            }
+        )
+    Width: =220
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "'1depthMenu' As gallery.variableTemplateHeightGallery":
+        DelayItemLoading: =true
+        Height: =608
+        Items: =MenuLeftNav.MenuItems
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =280
+        Width: =180
+        X: =40
+        ZIndex: =2
+
+        imageMenu As image:
+            Height: =25
+            Image: =ThisItem.MenuIcon
+            OnSelect: =Select(Parent)
+            Width: =47
+            Y: =15
+            ZIndex: =1
+
+        menuLabel As label:
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Bold
+            Height: =45
+            LineHeight: =10
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.MenuLabel
+            Width: =123
+            X: =47
+            Y: =5
+            ZIndex: =2
+
+        "'2depthMenu' As gallery.variableTemplateHeightGallery":
+            DelayItemLoading: =true
+            Height: =If(open && clickedMenu, 0, CountRows(ThisItem.SubMenu)*40)
+            Items: =ThisItem.SubMenu
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =CountRows(ThisItem.SubMenu)*40
+            Width: =Parent.Width
+            Y: =45
+            ZIndex: =3
+
+            Image4 As image:
+                Height: =5
+                Image: =icon_list_btn_card
+                OnSelect: =Select(Parent)
+                Width: =5
+                X: =15
+                Y: =15
+                ZIndex: =1
+
+            Label6 As label:
+                Height: =26
+                OnSelect: =Select(Parent)
+                Size: =10
+                Text: =ThisItem.MenuLabel
+                Width: =122
+                X: =20
+                Y: =4
+                ZIndex: =2
+
+        Button1 As button:
+            Fill: =Color.Transparent
+            HoverFill: =Color.Transparent
+            OnSelect: |-
+                =Set(open, !open);
+                Set(clickedMenu, ThisItem.MenuLabel);
+            PressedFill: =Color.Transparent
+            Text: =""
+            Width: =170
+            Y: =5
+            ZIndex: =4
 
