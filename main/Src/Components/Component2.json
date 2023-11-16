@@ -3935,57 +3935,6 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [
-    {
-      "Category": 0,
-      "DisplayName": "BoardData",
-      "Hidden": false,
-      "IsResettable": true,
-      "Name": "BoardData",
-      "PropertyDataTypeKey": "Table",
-      "Tooltip": "게시판데이터",
-      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "DetailData",
-      "Hidden": true,
-      "Name": "DetailData",
-      "PropertyDataTypeKey": "Record",
-      "Tooltip": "게시판 내용",
-      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"NOTICE_TITLE\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"REGI_DATE\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"REGI_ID\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "hDate",
-      "Hidden": false,
-      "IsResettable": true,
-      "Name": "hDate",
-      "PropertyDataTypeKey": "String",
-      "Tooltip": "헤더날짜",
-      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "hName",
-      "Hidden": false,
-      "IsResettable": true,
-      "Name": "hName",
-      "PropertyDataTypeKey": "String",
-      "Tooltip": "헤더이름",
-      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "\bhTitle",
-      "Hidden": false,
-      "IsResettable": true,
-      "Name": "hTitle",
-      "PropertyDataTypeKey": "String",
-      "Tooltip": "헤더제목",
-      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    }
-  ],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
