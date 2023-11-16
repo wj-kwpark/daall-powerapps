@@ -1,4 +1,5 @@
 main As screen:
+    OnVisible: =Set(open, false);
 
     logo_1 As logo:
 
