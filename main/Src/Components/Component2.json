@@ -120,7 +120,7 @@
             "Name": "HeaderTitle_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 67,
+            "PublishOrderIndex": 5,
             "Rules": [
               {
                 "Category": "Data",
@@ -479,7 +479,7 @@
             "Name": "HeaderDate_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 68,
+            "PublishOrderIndex": 6,
             "Rules": [
               {
                 "Category": "Data",
@@ -845,7 +845,7 @@
             "Name": "HeaderName_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 69,
+            "PublishOrderIndex": 7,
             "Rules": [
               {
                 "Category": "Data",
@@ -1182,7 +1182,7 @@
             "Name": "TitleOrder_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 70,
+            "PublishOrderIndex": 8,
             "Rules": [
               {
                 "Category": "Design",
@@ -1429,7 +1429,7 @@
             "Name": "DateOrder_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 71,
+            "PublishOrderIndex": 9,
             "Rules": [
               {
                 "Category": "Design",
@@ -1676,7 +1676,7 @@
             "Name": "NameOrder_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 72,
+            "PublishOrderIndex": 10,
             "Rules": [
               {
                 "Category": "Design",
@@ -1908,7 +1908,7 @@
             "Name": "HeaderSeparator_1",
             "Parent": "BoardHeader_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 73,
+            "PublishOrderIndex": 11,
             "Rules": [
               {
                 "Category": "Design",
@@ -2131,7 +2131,7 @@
         "Name": "BoardHeader_1",
         "Parent": "Component2",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 66,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Design",
@@ -2306,7 +2306,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "BoardBody_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 76,
+            "PublishOrderIndex": 12,
             "Rules": [
               {
                 "Category": "Data",
@@ -2459,7 +2459,7 @@
             "Name": "BoardTitle_1",
             "Parent": "BoardBody_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 77,
+            "PublishOrderIndex": 13,
             "Rules": [
               {
                 "Category": "Data",
@@ -2783,7 +2783,7 @@
             "Name": "BoardDate_1",
             "Parent": "BoardBody_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 78,
+            "PublishOrderIndex": 14,
             "Rules": [
               {
                 "Category": "Data",
@@ -3114,7 +3114,7 @@
             "Name": "BoardName_1",
             "Parent": "BoardBody_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 79,
+            "PublishOrderIndex": 15,
             "Rules": [
               {
                 "Category": "Data",
@@ -3391,7 +3391,7 @@
             "Name": "BoardSeparator_1",
             "Parent": "BoardBody_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 80,
+            "PublishOrderIndex": 16,
             "Rules": [
               {
                 "Category": "Design",
@@ -3619,7 +3619,7 @@
         "Name": "BoardBody_1",
         "Parent": "Component2",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 75,
+        "PublishOrderIndex": 3,
         "Rules": [
           {
             "Category": "Data",
@@ -3827,7 +3827,7 @@
         "Name": "BoardNotice_1",
         "Parent": "Component2",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 74,
+        "PublishOrderIndex": 4,
         "Rules": [
           {
             "Category": "Design",
@@ -3935,7 +3935,57 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [],
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "BoardData",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "BoardData",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "게시판데이터",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "DetailData",
+      "Hidden": true,
+      "Name": "DetailData",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "게시판 내용",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"NOTICE_TITLE\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"REGI_DATE\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"REGI_ID\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "hDate",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "hDate",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "헤더날짜",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "hName",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "hName",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "헤더이름",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "\bhTitle",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "hTitle",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "헤더제목",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,

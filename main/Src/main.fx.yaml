@@ -41,12 +41,6 @@ main As screen:
                 Y: =20
                 ZIndex: =1
 
-            Label3 As label:
-                Size: =10
-                Text: ="오늘의 보고서 조회수"
-                X: =5
-                ZIndex: =2
-
             Label4 As label:
                 Color: =RGBA(15, 108, 189, 1)
                 FontWeight: =FontWeight.Bold
