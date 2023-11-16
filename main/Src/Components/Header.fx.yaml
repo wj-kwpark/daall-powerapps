@@ -1,0 +1,38 @@
+Header As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =60
+    Width: =App.Width - 220
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image2 As image:
+        Height: =29
+        Image: =icon_logout
+        Width: =49
+        X: =1064
+        Y: =13
+        ZIndex: =1
+
+    Label4_1 As label:
+        Size: =11
+        Text: ="라라"
+        X: =775
+        Y: =8
+        ZIndex: =3
+
+    Icon1 As icon.Person:
+        Height: =32
+        Icon: =Icon.Person
+        Width: =33
+        X: =730
+        Y: =16
+        ZIndex: =4
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =1
+        Width: =1146
+        Y: =60
+        ZIndex: =5
+

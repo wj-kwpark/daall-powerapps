@@ -130,6 +130,7 @@
   },
   "ScreenOrder": [
     "로그인화면",
+    "main",
     "Notice"
   ]
 }

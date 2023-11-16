@@ -1,0 +1,16 @@
+logo As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =160
+    Width: =220
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image1 As image:
+        Height: =70
+        Image: =img_logo
+        Width: =70
+        X: =75
+        Y: =50
+        ZIndex: =1
+

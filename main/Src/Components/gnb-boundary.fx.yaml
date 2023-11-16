@@ -1,0 +1,23 @@
+"'gnb-boundary' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =App.Height
+    Width: =10
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    HtmlText1 As htmlViewer:
+        Height: =768
+        HtmlText: |-
+            =
+            "<div style=' width:"& Self.Width&"px; height: "&Self.Height-1&"px; backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.51);
+            
+            border-radius: 65px 65px 0px 0px;
+            
+            box-shadow: 35px 35px 68px 0px rgba(255, 255, 255, 0.5), inset -10px -10px 16px 0px rgba(255, 255, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255); '> </div>"
+        Width: =10
+        X: =10
+        ZIndex: =1
+
