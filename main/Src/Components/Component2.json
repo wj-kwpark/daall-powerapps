@@ -3935,6 +3935,7 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
