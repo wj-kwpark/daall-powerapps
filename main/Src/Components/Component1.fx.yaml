@@ -6,3 +6,9 @@ Component1 As CanvasComponent:
     Y: =0
     ZIndex: =1
 
+    Label3 As label:
+        Text: ="텍스트"
+        X: =178
+        Y: =241
+        ZIndex: =1
+
