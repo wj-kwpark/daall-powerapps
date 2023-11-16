@@ -51,7 +51,7 @@ MenuLeftNav As CanvasComponent:
         ZIndex: =1
 
         imageMenu As image:
-            Height: =50
+            Height: =28
             Image: =ThisItem.MenuIcon
             OnSelect: =Select(Parent)
             Width: =47
@@ -59,12 +59,14 @@ MenuLeftNav As CanvasComponent:
             ZIndex: =1
 
         menuLabel As label:
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Bold
             Height: =23
             LineHeight: =10
             OnSelect: =Select(Parent)
             Text: =ThisItem.MenuLabel
             Width: =123
             X: =47
-            Y: =10
+            Y: =5
             ZIndex: =2
 

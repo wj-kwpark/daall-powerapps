@@ -136,7 +136,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "50",
+                "InvariantScript": "28",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -348,8 +348,22 @@
               "DisabledFill",
               "PressedFill",
               "HoverFill",
-              "Font",
-              "FontWeight",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "Font",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "",
+                "InvariantPropertyName": "FontWeight",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              },
               "Align",
               "VerticalAlign",
               "X",
@@ -445,13 +459,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Font.'Open Sans'",
+                "InvariantScript": "Font.Lato",
                 "Property": "Font",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "FontWeight.Normal",
+                "InvariantScript": "FontWeight.Bold",
                 "Property": "FontWeight",
                 "RuleProviderType": "Unknown"
               },
@@ -487,7 +501,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "10",
+                "InvariantScript": "5",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -905,7 +919,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638357054624258066",
+    "LastModifiedTimestamp": "638357055835635414",
     "Name": "MenuLeftNav",
     "Rules": [
       {
@@ -980,7 +994,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357054624258066",
+  "LastModifiedTimestamp": "638357055835635414",
   "Name": "2570a21a948c4045b9bca9f6ad47cd92",
   "OverridableProperties": {},
   "Version": "1.0"
