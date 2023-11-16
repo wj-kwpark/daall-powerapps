@@ -18,7 +18,7 @@ Component2 As CanvasComponent:
             DisplayMode: =DisplayMode.View
             Height: |
                 =Parent.Height-50
-            Items: ='nocode-test.notice'
+            Items: =Collect(TestRoster,LDROSTER)
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             ShowScrollbar: =false
@@ -91,7 +91,6 @@ Component2 As CanvasComponent:
             RadiusTopLeft: =10
             RadiusTopRight: =10
             Width: =Parent.Width
-            X: =136
             ZIndex: =2
 
             HeaderSeparator_1 As rectangle:
