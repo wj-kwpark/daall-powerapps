@@ -1,6 +1,6 @@
 Component1 As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =App.Height
+    Height: =App.Height-200
     Width: =640
     X: =0
     Y: =0
