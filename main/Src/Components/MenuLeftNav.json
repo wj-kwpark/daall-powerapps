@@ -979,7 +979,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "127",
+                "InvariantScript": "81",
                 "Property": "TemplateSize",
                 "RuleProviderType": "Unknown"
               },
@@ -997,13 +997,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "235",
+                "InvariantScript": "Parent.Height",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "170",
+                "InvariantScript": "Parent.Width",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
@@ -1805,7 +1805,14 @@
           "X",
           "Y",
           "Width",
-          "Height",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "575",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "ZIndex"
         ],
         "ControlUniqueId": "28",
@@ -1909,7 +1916,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "575",
+            "InvariantScript": "Parent.Height",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -2015,7 +2022,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638357121043969750",
+    "LastModifiedTimestamp": "638357126491198662",
     "Name": "MenuLeftNav",
     "Rules": [
       {
@@ -2090,7 +2097,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357121043969750",
+  "LastModifiedTimestamp": "638357126491198662",
   "Name": "2570a21a948c4045b9bca9f6ad47cd92",
   "OverridableProperties": {},
   "Version": "1.0"

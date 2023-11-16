@@ -113,6 +113,7 @@ MenuLeftNav As CanvasComponent:
 
     "'1depthMenu' As gallery.variableTemplateHeightGallery":
         DelayItemLoading: =true
+        Height: =Parent.Height
         Items: =MenuLeftNav.MenuItems
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -143,12 +144,12 @@ MenuLeftNav As CanvasComponent:
 
         "'2depthMenu' As gallery.variableTemplateHeightGallery":
             DelayItemLoading: =true
-            Height: =235
+            Height: =Parent.Height
             Items: =ThisItem.SubMenu
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =127
-            Width: =170
+            TemplateSize: =81
+            Width: =Parent.Width
             Y: =45
             ZIndex: =3
 
