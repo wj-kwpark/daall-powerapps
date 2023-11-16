@@ -15,3 +15,66 @@ main As screen:
         X: =220
         ZIndex: =4
 
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =260
+        X: =220
+        Y: =86
+        ZIndex: =5
+
+    Container1_1 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =404
+        X: =504
+        Y: =86
+        ZIndex: =6
+
+    Container1_2 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =401
+        X: =932
+        Y: =86
+        ZIndex: =7
+
+    Container1_3 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =260
+        X: =220
+        Y: =410
+        ZIndex: =8
+
+    Container1_4 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =260
+        X: =504
+        Y: =410
+        ZIndex: =9
+
+    Container1_5 As groupContainer.manualLayoutContainer:
+        Height: =302
+        Width: =340
+        X: =788
+        Y: =410
+        ZIndex: =10
+
+    Container1_6 As groupContainer.manualLayoutContainer:
+        Height: =175
+        Width: =187
+        X: =1146
+        Y: =410
+        ZIndex: =11
+
+    Container1_7 As groupContainer.manualLayoutContainer:
+        Height: =113
+        Width: =89
+        X: =1146
+        Y: =599
+        ZIndex: =12
+
+    Container1_8 As groupContainer.manualLayoutContainer:
+        Height: =113
+        Width: =83
+        X: =1250
+        Y: =599
+        ZIndex: =13
+
