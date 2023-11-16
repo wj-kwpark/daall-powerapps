@@ -113,6 +113,37 @@ main As screen:
         Y: =86
         ZIndex: =7
 
+        CompositeColumnChart1 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+            Title2 As label:
+                Align: =Align.Center
+                Height: =25
+                Text: ="차트 제목"
+                Width: =400
+                X: =1
+                Y: =40
+                ZIndex: =2
+
+            ColumnChart1 As barChart:
+                Height: =302
+                Items: =ColumnChartSample
+                X: =1
+                ZIndex: =3
+
+            Legend2 As legend:
+                Height: =80
+                ItemColorSet: =ColumnChart1.ItemColorSet
+                Items: =ColumnChart1.SeriesLabels
+                Width: =320
+                X: =80
+                Y: =222
+                ZIndex: =4
+
     "'report-chart' As groupContainer.manualLayoutContainer":
         Height: =302
         Width: =260
