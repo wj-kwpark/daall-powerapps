@@ -1,43 +1,34 @@
-Notice As screen:
+Component2 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
 
-    BoardNotice As group:
+    BoardNotice_1 As group:
         Height: =5
         Width: =5
-        X: =40
-        Y: =40
+        X: =-136
+        Y: =-78
         ZIndex: =3
 
-        "BoardBody As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        "BoardBody_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
             DelayItemLoading: =true
             DisplayMode: =DisplayMode.View
-            Height: =380
-            Items: |-
-                =Switch(
-                    Orderby,
-                        "title",
-                            If(OrderTitle,
-                                Sort('nocode-test.notice',NOTICE_TITLE),
-                                Sort('nocode-test.notice',NOTICE_TITLE,SortOrder.Descending)),
-                        "date",
-                            If(OrderDate,
-                                Sort('nocode-test.notice',REGI_DATE,SortOrder.Descending),
-                                Sort('nocode-test.notice',REGI_DATE)),
-                        "name",
-                            If(OrderName,
-                                Sort('nocode-test.notice',REGI_ID),
-                                Sort('nocode-test.notice',REGI_ID,SortOrder.Descending)),
-                    Sort('nocode-test.notice',REGI_DATE,SortOrder.Descending))
+            Height: |
+                =Parent.Height-50
+            Items: =Collect(TestRoster,LDROSTER)
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             ShowScrollbar: =false
             TemplatePadding: =0
             TemplateSize: =50
-            Width: =1207
-            X: =136
-            Y: =338
+            Width: =Parent.Width
+            Y: =50
             ZIndex: =1
 
-            BoardTitle As label:
+            BoardTitle_1 As label:
                 Color: =RGBA(85, 26, 139, 1)
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Normal, FontWeight.Normal)
                 Height: =30
@@ -48,11 +39,11 @@ Notice As screen:
                 PaddingTop: =0
                 PressedColor: =RGBA(255,0,0,100)
                 Text: =ThisItem.NOTICE_TITLE
-                Width: =807
+                Width: =Parent.Width-400
                 Y: =10
                 ZIndex: =1
 
-            BoardDate As label:
+            BoardDate_1 As label:
                 Align: =Align.Center
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                 Height: =30
@@ -63,11 +54,11 @@ Notice As screen:
                 PaddingTop: =0
                 Text: =ThisItem.REGI_DATE
                 Width: =200
-                X: =807
+                X: =Parent.Width-400
                 Y: =10
                 ZIndex: =2
 
-            BoardName As label:
+            BoardName_1 As label:
                 Align: =Align.Center
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                 Height: =30
@@ -78,11 +69,11 @@ Notice As screen:
                 PaddingTop: =0
                 Text: =ThisItem.REGI_ID
                 Width: =200
-                X: =1007
+                X: =Parent.Width-200
                 Y: =10
                 ZIndex: =3
 
-            BoardSeparator As rectangle:
+            BoardSeparator_1 As rectangle:
                 Fill: =RGBA(128, 128, 128, 0.51)
                 Height: =1
                 OnSelect: =Select(Parent)
@@ -90,20 +81,19 @@ Notice As screen:
                 Y: =Parent.TemplateHeight - Self.Height
                 ZIndex: =5
 
-        BoardHeader As groupContainer.manualLayoutContainer:
+        BoardHeader_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             Fill: =RGBA(244, 247, 252, 1)
-            Height: =50
+            Height: |
+                =50
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Width: =1207
-            X: =136
-            Y: =284
+            Width: =Parent.Width
             ZIndex: =2
 
-            HeaderSeparator As rectangle:
+            HeaderSeparator_1 As rectangle:
                 Fill: =RGBA(16, 87, 192, 1)
                 Height: =2
                 OnSelect: =
@@ -111,38 +101,38 @@ Notice As screen:
                 Y: =48
                 ZIndex: =1
 
-            HeaderDate As label:
+            HeaderDate_1 As label:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 Height: =30
                 Text: ="생성일"
-                Width: =BoardDate.Width
-                X: =807
+                Width: =BoardDate_1.Width
+                X: =Parent.Width-400
                 Y: =10
                 ZIndex: =3
 
-            HeaderName As label:
+            HeaderName_1 As label:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 Height: =30
                 PaddingRight: =50
                 Text: ="생성자"
-                Width: =BoardName.Width
-                X: =1007
+                Width: =BoardName_1.Width
+                X: =Parent.Width-200
                 Y: =10
                 ZIndex: =4
 
-            HeaderTitle As label:
+            HeaderTitle_1 As label:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 Height: =30
                 PaddingLeft: =50
                 Text: ="제목"
-                Width: =BoardTitle.Width
+                Width: =Parent.Width-400
                 Y: =10
                 ZIndex: =5
 
-            TitleOrder As icon.ArrowsUpDown:
+            TitleOrder_1 As icon.ArrowsUpDown:
                 Color: =RGBA(116, 116, 116, 1)
                 Height: =18
                 Icon: =Icon.Sort
@@ -150,11 +140,11 @@ Notice As screen:
                     =Set(Orderby,"title");
                     If(OrderTitle,Set(OrderTitle,false),Set(OrderTitle,true));
                 Width: =18
-                X: =447
+                X: =(Parent.Width-400)/2 + 40
                 Y: =16
                 ZIndex: =6
 
-            DateOrder As icon.ArrowsUpDown:
+            DateOrder_1 As icon.ArrowsUpDown:
                 Color: =RGBA(116, 116, 116, 1)
                 Height: =18
                 Icon: =Icon.Sort
@@ -162,11 +152,11 @@ Notice As screen:
                     =Set(Orderby,"date");
                     If(OrderDate,Set(OrderDate,false),Set(OrderDate,true))
                 Width: =18
-                X: =935
+                X: =Parent.Width-275
                 Y: =16
                 ZIndex: =7
 
-            NameOrder As icon.ArrowsUpDown:
+            NameOrder_1 As icon.ArrowsUpDown:
                 Color: =RGBA(116, 116, 116, 1)
                 Height: =18
                 Icon: =Icon.Sort
@@ -174,49 +164,7 @@ Notice As screen:
                     =Set(Orderby,"name");
                     If(OrderName,Set(OrderName,false),Set(OrderName,true))
                 Width: =18
-                X: =1110
+                X: =Parent.Width-100
                 Y: =16
                 ZIndex: =8
-
-    "PowerAppsOneGrid1 As '테이블(Dataverse만)'.pcfdataset":
-        DisplayMode: =DisplayMode.Edit
-        EnableRangeSelection: ='PowerAppsOneGrid.EnableRangeSelection'.Disable
-        Height: =478
-        Items: ='nocode-test.notice'
-        ReflowBehavior: ='PowerAppsOneGrid.ReflowBehavior'.Reflow
-        Width: =891
-        X: =56
-        Y: =44
-        ZIndex: =3
-
-        REGI_DATE1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="REGI_DATE"
-            FieldName: ="REGI_DATE"
-            FieldType: ="D"
-            FieldVariantName: ="textualColumn"
-            Order: =1
-            ZIndex: =9
-
-        REGI_ID1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="REGI_ID"
-            FieldName: ="REGI_ID"
-            FieldType: ="s"
-            FieldVariantName: ="textualColumn"
-            Order: =2
-            ZIndex: =10
-
-        NOTICE_TITLE1 As pcfDataField.textualColumn:
-            FieldDisplayName: ="NOTICE_TITLE"
-            FieldName: ="NOTICE_TITLE"
-            FieldType: ="s"
-            FieldVariantName: ="textualColumn"
-            Order: =3
-            ZIndex: =11
-
-    Component2_1 As Component2:
-        Height: =411
-        Width: =915
-        X: =440
-        Y: =216
-        ZIndex: =4
 

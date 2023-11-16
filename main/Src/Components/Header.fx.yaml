@@ -14,16 +14,6 @@ Header As CanvasComponent:
         Y: =13
         ZIndex: =1
 
-    Label4 As label:
-        Size: =9
-        Text: |-
-            ="(최종접속일 2023-11-16 08:55:35)
-            "
-        Width: =242
-        X: =834
-        Y: =8
-        ZIndex: =2
-
     Label4_1 As label:
         Size: =11
         Text: ="라라"
